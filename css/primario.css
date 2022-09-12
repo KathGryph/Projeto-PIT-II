@@ -1,0 +1,74 @@
+body {
+	margin: auto;
+	width: 1600;
+}
+
+header {
+	border-style: groove;
+	width: 1600px;
+	margin: 0; 
+}
+
+header h1 a {
+	text-decoration: none;
+	color:inherit;
+}
+
+nav {
+	border-style: groove;
+	text-align:right;
+	padding-right: 50px;
+}
+
+nav a {
+	border-style: solid;
+	border-width: 0px;
+	text-decoration: none;
+	color: inherit;
+}
+
+/*Link clicado fica em cor diferente, ainda a ser trabalhado pra quando for estilizado */
+.current {
+	color: brown;
+}
+
+.resumo {
+	border-style: groove;
+	width: 1600px;
+	height: 218px;
+}
+
+.content {
+	display: flex;
+	border-style: groove;
+	width: 1600px;
+	justify-content: space-between;
+}
+
+article {
+	border-style: groove;
+	width: 398px;
+	height: 435px;
+}
+
+.sobre{
+	width: 1600px;
+}
+
+.contato{
+	width: 746px;
+}
+
+footer {
+	clear: left;
+	border-style: groove;
+	width: 1600px;
+	height: 134px;
+	position: absolute;
+	bottom: 0;
+}
+
+#page {
+	width: 1600px;
+	height: 100%;
+}
