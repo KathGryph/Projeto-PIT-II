@@ -1,30 +1,43 @@
+/*Tamanho do corpo da página, deixando espaço em ambas as laterais*/
 body {
 	margin: auto;
-	width: 1600;
+	width: 83.33%; 
+	min-height: 100vh;
+	background-color: #eff0f3;
+}
+/*Wrapper de conteúdo*/
+#page {
+	position: relative;
+	min-height: 100vh;
 }
 
+/*Tamanho do header do site*/
 header {
 	border-style: groove;
-	width: 1600px;
+	width: 100%;
 	margin: 0; 
 }
 
+/*A ser excluído depois, apenas formatação do texto no header*/
 header h1 a {
 	text-decoration: none;
 	color:inherit;
 }
 
+/*Montando a barra de navegação*/
 nav {
 	border-style: groove;
 	text-align:right;
 	padding-right: 50px;
 }
 
+/*Formatação de textos de links da navegação*/
 nav a {
 	border-style: solid;
 	border-width: 0px;
 	text-decoration: none;
 	color: inherit;
+	background-color: #ff8e3c;
 }
 
 /*Link clicado fica em cor diferente, ainda a ser trabalhado pra quando for estilizado */
@@ -32,43 +45,48 @@ nav a {
 	color: brown;
 }
 
+/*Tamanho da tela de resumo do index*/
 .resumo {
 	border-style: groove;
-	width: 1600px;
-	height: 218px;
+	width: 100%;
+	height: 22%;
 }
 
+/*Tamanho do conteúdo contento artigos nas páginas*/
 .content {
 	display: flex;
-	border-style: groove;
-	width: 1600px;
+	width: 100%;
+	height: 46.62%;
 	justify-content: space-between;
+	border-style: groove;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
 }
 
+/*Tamanho de cada artigo na página index*/
 article {
 	border-style: groove;
-	width: 398px;
-	height: 435px;
+	width: 24.87%;
+	
 }
 
+/*Tamanho do artigo da página Sobre*/
 .sobre{
-	width: 1600px;
+	width: 100%;
 }
 
+/*Tamanho do artigo da página Contato*/
 .contato{
-	width: 746px;
+	width: 46.62%;
 }
 
+/*Formatação do Footer*/
 footer {
-	clear: left;
+	clear: both;
+	width: 100%;
+	height: 14%;
 	border-style: groove;
-	width: 1600px;
-	height: 134px;
-	position: absolute;
-	bottom: 0;
-}
-
-#page {
-	width: 1600px;
-	height: 100%;
+	position: sticky;
+	top: 100%; 
 }
