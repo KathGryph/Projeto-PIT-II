@@ -15,20 +15,31 @@ body {
 header {
 	border-style: groove;
 	width: 100%;
+	min-height: 23vh !important;
 	margin: 0; 
+	position: relative;
+	overflow: hidden;
 }
-
-/*A ser excluído depois, apenas formatação do texto no header*/
-header h1 a {
-	text-decoration: none;
-	color:inherit;
+/*Imagem no banner*/
+.banner {
+	position: absolute;
+	right: -7.8%;
+	width: 34.90%;
+	max-width: 670px;
+	min-width: 200px;
 }
 
 /*Montando a barra de navegação*/
 nav {
 	border-style: groove;
-	text-align:right;
-	padding-right: 50px;
+	border-width: 3px;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10%;
+	background-color: #eff0f3;
+	padding-top: 6px;
 }
 
 /*Formatação de textos de links da navegação*/
@@ -38,6 +49,8 @@ nav a {
 	text-decoration: none;
 	color: inherit;
 	background-color: #ff8e3c;
+	text-align: center;
+	padding: 0.5em 1em 0.25em 1em;
 }
 
 /*Link clicado fica em cor diferente, ainda a ser trabalhado pra quando for estilizado */
@@ -50,6 +63,7 @@ nav a {
 	border-style: groove;
 	width: 100%;
 	height: 22%;
+	overflow-y: auto;
 }
 
 /*Tamanho do conteúdo contento artigos nas páginas*/
@@ -68,7 +82,7 @@ nav a {
 article {
 	border-style: groove;
 	width: 24.87%;
-	
+	overflow-y: auto;
 }
 
 /*Tamanho do artigo da página Sobre*/
@@ -79,6 +93,26 @@ article {
 /*Tamanho do artigo da página Contato*/
 .contato{
 	width: 46.62%;
+}
+
+form {
+	display: table;
+}
+.contact {
+	display: table-row;
+}
+label {
+	display: table-cell;
+}
+input {
+	display: table-cell;
+}
+.contact input {
+	width: 150%;
+}
+textarea {
+	width: 100%;
+	height: 68%;
 }
 
 /*Formatação do Footer*/
