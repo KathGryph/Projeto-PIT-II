@@ -95,24 +95,10 @@ article {
 	width: 46.62%;
 }
 
-form {
-	display: table;
-}
-.contact {
-	display: table-row;
-}
-label {
-	display: table-cell;
-}
-input {
-	display: table-cell;
-}
-.contact input {
-	width: 150%;
-}
+/*Tamanho da área de mensagem para e-mail*/
 textarea {
 	width: 100%;
-	height: 68%;
+	height: 55%;
 }
 
 /*Formatação do Footer*/
