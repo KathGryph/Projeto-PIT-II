@@ -101,6 +101,18 @@ textarea {
 	height: 55%;
 }
 
+.avaliacao {
+	height: 25%;
+}
+
+.comentarios {
+	border-style: groove;
+	border-color: red;
+	display: relative;
+	height: 44%;
+	overflow-y: auto;
+}
+
 /*Formatação do Footer*/
 footer {
 	clear: both;
