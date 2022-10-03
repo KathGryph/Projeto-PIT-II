@@ -19,11 +19,13 @@
 					<br>
 					Aqui você pode mandar um e-mail diretamente para nossos secretários e marcar um horário!
 					<br></br>
-					<form action="https://formspree.io/f/xzbweran" method="POST">
+					<form action="processo.php" method="post">
 						<label for="nome">Nome completo:</label>
 						<input type="text" id="nome" name="nome" required>
+						
 						<label for="email">Seu e-mail:</label>
 						<input type="email" id="email" name="email" required><br>
+						
 						<p>
 						<label>
 							<textarea name="mensagem" placeholder="Descreva o que precisa aqui." required></textarea>
@@ -31,27 +33,6 @@
 						<button type="submit" value="Enviar">Enviar</button>
 					</form>
 				</article> 
-				<article class="contato">
-					Quer deixar um comentário sobre sua experiência com nossas advogados? Pode escrever aqui!<br>
-					Seu comentário será mostrado assim que atualizar a página.<p>
-					<form>
-						<label for="nome">Nome:</label>
-						<input type="text" id="nomeReview" name="nome" required>
-						<p>
-						<label>
-							<textarea class="avaliacao" name="review" maxlength="280" placeholder="Escreva sua avaliação aqui!(Máximo 280 caracteres)" required></textarea>
-						</label><br>
-						<button type="submit" value="Enviar">Enviar</button><br>
-					</form>
-					<p>
-					<div class="comentarios">
-						<div class="single-item">
-							Teste Teste Teste
-							<a href="mailto:katalenicpsn3@hotmail.com">e-mail teste</a>
-							<p>Teste</p>
-						</div>
-					</div>
-				</article>
 			</div>
 			<footer>
 				Teste

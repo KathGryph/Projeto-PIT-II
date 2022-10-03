@@ -93,6 +93,8 @@ article {
 /*Tamanho do artigo da página Contato*/
 .contato{
 	width: 46.62%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*Tamanho da área de mensagem para e-mail*/
