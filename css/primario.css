@@ -93,12 +93,35 @@ article {
 /*Tamanho do artigo da página Contato*/
 .contato{
 	width: 46.62%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*Tamanho da área de mensagem para e-mail*/
 textarea {
 	width: 100%;
 	height: 55%;
+	resize: none; 
+}
+
+.avaliacao {
+	height: 25%;
+}
+
+.contato .comentarios {
+	border-style: groove;
+	border-color: red;
+	display: relative;
+	height: 44%;
+	overflow-y: auto;
+}
+
+.contato .comentarios .single-item {
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+	height: 45%;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
 }
 
 /*Formatação do Footer*/
