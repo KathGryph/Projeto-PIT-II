@@ -13,17 +13,16 @@
 		$email = $_POST["email"];
 		$mensagem = $_POST["mensagem"];
 
-//lembrar de mudar username a password fora do padrão
-$host = "advlorem.mysql.dbaas.com.br";
-$dbname = "advlorem";
-$username = "advlorem";
-$password = "Advuni204512!";
+		$host = "advlorem.mysql.dbaas.com.br";
+		$dbname = "advlorem";
+		$username = "advlorem";
+		$password = "Advuni204512!";
 
 		//Pegar dados para a db e inicializar conexão
 		$conn = mysqli_connect(hostname: $host, 
-							username: $username,
-							password: $password,
-							database: $dbname);
+					username: $username,
+					password: $password,
+					database: $dbname);
 
 		//Checar por erros
 		if (mysqli_connect_errno()) {
