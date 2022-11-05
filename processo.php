@@ -5,10 +5,10 @@ $email = $_POST["email"];
 $mensagem = $_POST["mensagem"];
 
 //lembrar de mudar username a password fora do padrão
-$host = "advlorem.mysql.dbaas.com.br";
-$dbname = "advlorem";
-$username = "advlorem";
-$password = "Advuni204512!";
+$host = "host aqui";
+$dbname = "banco aqui";
+$username = "user aqui";
+$password = "senha aqui";
 
 //Pegar dados para a db e inicializar conexão
 $conn = mysqli_connect(hostname: $host, 
