@@ -14,7 +14,7 @@
 		$mensagem = $_POST["mensagem"];
 
 		//lembrar de mudar username a password fora do padrão
-		$host = "hot";
+		$host = "host";
 		$dbname = "nome db";
 		$username = "usuario";
 		$password = "senha";
