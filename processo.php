@@ -13,10 +13,10 @@
 		$email = $_POST["email"];
 		$mensagem = $_POST["mensagem"];
 
-		$host = "advlorem.mysql.dbaas.com.br";
-		$dbname = "advlorem";
-		$username = "advlorem";
-		$password = "Advuni204512!";
+		$host = "host";
+		$dbname = "banco de dados";
+		$username = "usuario";
+		$password = "senha";
 
 		//Pegar dados para a db e inicializar conexão
 		$conn = mysqli_connect(hostname: $host, 
@@ -56,15 +56,15 @@
 			$mail->isSMTP();                                            //Send using SMTP
 			$mail->Host       = 'email-ssl.com.br';           //Set the SMTP server to send through
 			$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-			$mail->Username   = 'advlorem@advocacialorem.com.br';                     //SMTP username
-			$mail->Password   = 'Loremipsum123!';                               //SMTP password
+			$mail->Username   = 'email';                     //SMTP username
+			$mail->Password   = 'senha';                               //SMTP password
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
 			$mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
 			//Recipients
-			$mail->setFrom('advlorem@advocacialorem.com.br', 'Lorem');
-			$mail->addAddress('advlorem@advocacialorem.com.br', 'Advocacia');     //Add a recipient
-			$mail->addReplyTo('advlorem@advocacialorem.com.br', 'Information');
+			$mail->setFrom('email', 'Lorem');
+			$mail->addAddress('email', 'Advocacia');     //Add a recipient
+			$mail->addReplyTo('email', 'Information');
 
 			//Content
 			$mail->isHTML(true);                                  //Set email format to HTML
