@@ -1,18 +1,16 @@
 <html lang="pt-BR">
 	<head>
 		<title>Contato</title>
-		<meta charset="utf-8">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="description" content="Advocacia Lorem é um site fictício, feito pelo propósito de servir apenas como um projeto de desenvolvimento web para um curso de faculdade." />
-		<meta charset="utf8mb4_general_ci">
 		<link rel="stylesheet" type="text/css" href="css/primario.css">
 	</head>
 	<body>
 		<div id="page">
 			<header>
 				<a href="index.html"><img src="images/logotipo.png" alt="Home" class="home"></a>
-				<img src="images/banner.png" alt="Banner do site" class="banner">
+				<div class="adv">Advocacia Lorem Ipsum</div>
 				<nav>
 					<a href="index.html">Inicial</a>
 					<a href="sobre.html">Sobre</a>
@@ -25,33 +23,35 @@
 					<br>
 					</br>
 					<form action="processo.php" method="post">
-						<label for="nome">Nome completo:</label>
+						<label for="nome">Nome:</label>
 						<input type="text" id="nome" name="nome" required>
-						
-						<label for="email">Seu e-mail:</label>
+						<br>
+						<label for="email">Email:</label>
 						<input type="email" id="email" name="email" required><br>
 						
 						<p>
 						<label>
 							<textarea name="mensagem" placeholder="Descreva o que precisa aqui." maxlenght="5000" required></textarea>
 						</label><br>
-						<button type="submit" name="botao" value="Enviar">Enviar</button>
+						<button type="submit" name="botao" value="Enviar">Enviar mensagem</button>
 					</form>
 				</article> 
 			</div>
 			<footer>
-				<div class="infoFooter1">
-					Advocacia Lorem Ipsum, é uma advocacia localizada com sede em Lugar Inventado, 12345 na Central dos Países das Maravilhas<br />
-					Com o objetivo de trazer para os nossos clientes o melhor serviço possível, usamos a maior parte de nosso orçamento<br />
-					em nossos Advogados e funcionários, deixando apenas uma pequena parte para o design desse site ;)
-				</div>
-				<div class="infoFooter2">
-					Para mais informações e novidades, nos siga pelas nossas redes sociais! <br />
-					<ul>
-						<li><a href="https://twitter.com"><img src="images/twitter.png" alt="twitter">Twitter</a></li>
-						<li><a href="https://facebook.com"><img src="images/facebook.png" alt="facebook">Facebook</a></li>
-						<li><a href="https://instagram.com"><img src="images/instagram.png" alt="instagram">Instagram</a></li>
-					</ul>
+				<div class="footerWrap">
+					<div class="infoFooter1">
+						Advocacia Lorem Ipsum, é uma advocacia localizada com sede em Lugar Inventado, 12345 na Central dos Países das Maravilhas<br />
+						Com o objetivo de trazer para os nossos clientes o melhor serviço possível, usamos a maior parte de nosso orçamento<br />
+						em nossos Advogados e funcionários, deixando apenas uma pequena parte para o design desse site ;)
+					</div>
+					<div class="infoFooter2">
+						Para mais informações e novidades, nos siga pelas nossas redes sociais! <br />
+						<ul>
+							<li><a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter">Twitter</a></li>
+							<li><a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook">Facebook</a></li>
+							<li><a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram">Instagram</a></li>
+						</ul>
+					</div>
 				</div>
 			</footer>
 		</div>
